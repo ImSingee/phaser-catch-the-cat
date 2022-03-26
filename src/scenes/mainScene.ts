@@ -100,10 +100,10 @@ export default class MainScene extends Phaser.Scene {
             case GameState.PLAYING:
                 break;
             case GameState.LOSE:
-                this.setStatusText(_("猫已经跑到地图边缘了，你输了"));
+                this.setStatusText(_("tz 已经跑到地图边缘了，你输了"));
                 break;
             case GameState.WIN:
-                this.setStatusText(_("猫已经无路可走，你赢了"));
+                this.setStatusText(_("tz 已经无路可走，可那又能如何呢，你能要的来钱吗？"));
                 break;
             default:
                 return;
@@ -193,12 +193,12 @@ export default class MainScene extends Phaser.Scene {
             return false;
         }
         if (this.cat.i === i && this.cat.j === j) {
-            this.setStatusText(_("点击位置是猫当前位置，禁止点击"));
+            this.setStatusText(_("点击位置是 tz 当前位置，禁止点击"));
             return false;
         }
         block.isWall = true;
         if (this.cat.isCaught()) {
-            this.setStatusText(_("猫已经无路可走，你赢了"));
+            this.setStatusText(_("tz 已经无路可走，可那又能如何呢，你能要的来钱吗？"));
             this.state = GameState.WIN;
             return false;
         }
@@ -209,7 +209,7 @@ export default class MainScene extends Phaser.Scene {
         this.setStatusText(_("您点击了 ") + `(${i}, ${j})`);
         let result = this.cat.step();
         if (!result) {
-            this.setStatusText(_("猫认输，你赢了！"));
+            this.setStatusText(_("tz 认输，然而你也没赢，因为钱早就没了"));
             this.state = GameState.WIN;
         }
         return true;
@@ -225,7 +225,7 @@ export default class MainScene extends Phaser.Scene {
             wall: []
         };
         this.state = GameState.PLAYING;
-        this.setStatusText(_("点击小圆点，围住小猫"));
+        this.setStatusText(_("点击小圆点，围住 tz"));
     }
 
     undo() {

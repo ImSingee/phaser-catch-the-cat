@@ -1,18 +1,23 @@
-import * as bottom_left_1 from "../assets/images/bottom_left/1.svg";
-import * as bottom_left_2 from "../assets/images/bottom_left/2.svg";
-import * as bottom_left_3 from "../assets/images/bottom_left/3.svg";
-import * as bottom_left_4 from "../assets/images/bottom_left/4.svg";
-import * as bottom_left_5 from "../assets/images/bottom_left/5.svg";
-import * as left_1 from "../assets/images/left/1.svg";
-import * as left_2 from "../assets/images/left/2.svg";
-import * as left_3 from "../assets/images/left/3.svg";
-import * as left_4 from "../assets/images/left/4.svg";
-import * as left_5 from "../assets/images/left/5.svg";
-import * as top_left_1 from "../assets/images/top_left/1.svg";
-import * as top_left_2 from "../assets/images/top_left/2.svg";
-import * as top_left_3 from "../assets/images/top_left/3.svg";
-import * as top_left_4 from "../assets/images/top_left/4.svg";
-import * as top_left_5 from "../assets/images/top_left/5.svg";
+import * as tz from "../assets/images/tz.svg";
+
+const bottom_left_1 = tz;
+const bottom_left_2 = tz;
+const bottom_left_3 = tz;
+const bottom_left_4 = tz;
+const bottom_left_5 = tz;
+
+const left_1 = tz;
+const left_2 = tz;
+const left_3 = tz;
+const left_4 = tz;
+const left_5 = tz;
+
+const top_left_1 = tz;
+const top_left_2 = tz;
+const top_left_3 = tz;
+const top_left_4 = tz;
+const top_left_5 = tz;
+
 
 export default {
     textures: {
