@@ -1,13 +1,12 @@
-# 捉住小猫
+# 童 ESCAPE 哲
 
-[开始游戏](https://ganlvtech.github.io/phaser-catch-the-cat/)
-[![Build Status](https://www.travis-ci.org/ganlvtech/phaser-catch-the-cat.svg?branch=master)](https://www.travis-ci.org/ganlvtech/phaser-catch-the-cat)
+[开始游戏](https://tz.3600.academy/)
 
 ## 游戏玩法
 
-* 点击小圆点，围住小猫。
-* 你点击一次，小猫走一次。
-* 直到你把小猫围住（赢），或者小猫走到边界并逃跑（输）。
+* 点击小圆点，围住 tz。
+* 你点击一次，tz 走一次。
+* 直到你把 tz 围住（赢），或者 tz 走到边界并逃跑（输）。
 
 ## 部署
 
